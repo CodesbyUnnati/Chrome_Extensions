@@ -51,8 +51,6 @@
  - Upload all the given files as mentioned above.
  - Do not create any folder outside the "Extension" folder.
      
-## Things you can contribute to 
--   
 
 ## Steps For Contribution
 
