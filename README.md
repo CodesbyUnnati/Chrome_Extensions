@@ -1,4 +1,4 @@
-![image](https://ibb.co/jr4nsCP)
+![image]([url=https://ibb.co/jr4nsCP][img]https://i.ibb.co/jr4nsCP/01.png[/img][/url])
 
 <h1 align="center"> Hacktoberfest 2021 </h1>
 
