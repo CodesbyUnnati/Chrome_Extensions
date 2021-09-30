@@ -39,7 +39,7 @@
 ***
 ## Rules To Contribute To This Repo
 
--   You have to create a unique Chrome extension, by taking reference of the demo video.
+-   You have to create a unique Chrome extension, by taking reference of the demo video-https://youtu.be/SRkUW_mv64A.
 -   Each Extension should contain a logo, a manifest.json file, popup.html , style.css, script.js file.
 -   You should not copy other's code.
 -   You can create as many PR's, but they should be unique.
