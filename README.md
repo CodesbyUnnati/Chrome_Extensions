@@ -63,9 +63,9 @@
 ***
 
 ## Contributors
-<a href="https://github.com/Prachi8282/Important-Algorithmic-Challenges/graphs/contributors">
+<!-- <a href="https://github.com/Prachi8282/Important-Algorithmic-Challenges/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=Prachi8282/Important-Algorithmic-Challenges" />
-</a>
+</a> -->
 
 ---
 
