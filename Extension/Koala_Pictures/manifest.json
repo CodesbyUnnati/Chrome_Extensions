@@ -1,0 +1,13 @@
+{
+  "name": "Peacock Pictures",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "koala.jpg"
+  },
+  "icons": {
+    "128": "koala.jpg"
+  },
+  "permissions": ["activeTab"]
+}
