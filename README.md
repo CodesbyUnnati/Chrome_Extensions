@@ -39,16 +39,18 @@
 ***
 ## Rules To Contribute To This Repo
 
--   
+-   You have to create a unique Chrome extension, by taking reference of the demo video.
+-   Each Extension should contain a logo, a manifest.json file, popup.html , style.css, script.js file.
+-   You should not copy other's code.
+-   You can create as many PR's, but they should be unique.
 
 ## file naming convention
 
-<!--  use | file type  |  comments
- ----|------------|---------------
- questions | **README.md**        | all questions of particular topic are mentioned in a `README.md` file inside the sub topic folder 
- Java solutions | **[topic name].java**  | solution Java code file code to a question is written in same folder where question is mentioned
- algorithm solution | **[topic name]-algorithm.txt** | algorithm solution to a question is written in a `.txt` txt file in same folder where question is mentioned
-     -->
+ - You should create a separate folder inside the main folder "Extension".
+ - Give a unique and valid name of your extension.
+ - Upload all the given files as mentioned above.
+ - Do not create any folder outside the "Extension" folder.
+     
 ## Things you can contribute to 
 -   
 
@@ -56,22 +58,16 @@
 
     1. Fork this repo
     2. Star this repo
-    3. Add a file ( txt/java ) inside appropriate folder 
+    3. Add a folder of your extension inside "Extension" folder 
     4. commit the code
     5. Make pull request
     
 ***
 
-## Contributors
-<!-- <a href="https://github.com/Prachi8282/Important-Algorithmic-Challenges/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=Prachi8282/Important-Algorithmic-Challenges" />
-</a> -->
-
----
-
 <h2 align="center">
     <p>
-        Thank You
+        Thank You! 
+        PS- Don't forget to star this repo ;p
     </p>
 </h2>
 
