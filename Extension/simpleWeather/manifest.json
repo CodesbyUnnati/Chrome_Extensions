@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "The Weather",
+    "description": "The Weather Extension",
+    "version": "1.0.0",
+    "icons": { 
+        "128": "images/icon_128.png"
+    },
+    "browser_action": {
+        "default_icon": "images/icon.png",
+        "default_popup": "weather.html"
+    },
+    "permissions": ["activeTab"],
+    "content_security_policy":"script-src 'self' https://code.jquery.com; object-src 'self'"
+}
