@@ -1,0 +1,13 @@
+{
+  "name": "dogs_gifs",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "dog128.png"
+  },
+  "icons": {
+    "128": "dog128.png"
+  },
+  "permissions": ["activeTab"]
+}
