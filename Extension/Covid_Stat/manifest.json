@@ -1,0 +1,13 @@
+{
+  "name": "Covid Stat",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "covid.png"
+  },
+  "icons": {
+    "128": "covid.png"
+  },
+  "permissions": ["activeTab"]
+}
