@@ -1,0 +1,24 @@
+.auto--copy {
+  display: block;
+  position: fixed;
+  bottom: 2.5rem;
+  right: 2.5rem;
+  z-index: 100000002;
+
+  /* button transition-property; */
+  color: #000000;
+  font-family: Helvetica, sans-serif;
+  /* transform: skewX(-9deg); */
+
+  font-size: 12.8px;
+  font-weight: 800;
+  text-align: center;
+  text-decoration: none;
+  background-color: #ffffff;
+  /* padding: 0.2rem 0.4rem; */
+  padding: 3.2px 6.4px;
+  border: 1.2px solid #b3b3b3;
+  border-radius: 2px;
+
+  box-shadow: 2.8px 2.8px #fa9f17;
+}

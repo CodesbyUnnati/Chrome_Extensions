@@ -1,0 +1,33 @@
+{
+  "name": "Auto Copy Pro",
+  "description": "Automatically copy selected text from any website to your clipboard!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "css": ["script.css"],
+      "js": ["script.js"]
+    }
+  ],
+
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/notepad16.png",
+      "32": "/images/notepad32.png",
+      "48": "/images/notepad48.png",
+      "128": "/images/notepad128.png"
+    }
+  },
+  "icons": {
+    "16": "/images/notepad16.png",
+    "32": "/images/notepad32.png",
+    "48": "/images/notepad48.png",
+    "128": "/images/notepad128.png"
+  },
+  "options_page": "options.html"
+}

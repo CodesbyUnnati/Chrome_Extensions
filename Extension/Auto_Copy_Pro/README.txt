@@ -1,0 +1,1 @@
+This extension can copy text automatically. you just have to select the text.
