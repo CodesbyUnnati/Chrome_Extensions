@@ -1,0 +1,24 @@
+{
+	"name": "PiP View",
+	"description": "Watch videos in Picture in Picture mode",
+	"version": "1.2.0",
+	"manifest_version": 2,
+	"icons": { 
+		"16": "icon16_round.png",
+		"48": "icon48_round.png",
+		"128": "icon128_round.png" 
+	},
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["content.js"]
+		}
+	],
+	"background": {
+		"scripts": ["background.js"]
+	},
+	"browser_action": {
+		"default_icon": "pipIcon_round.png"
+	},
+	"permissions": ["activeTab", "<all_urls>"]
+}
