@@ -2,15 +2,12 @@ const searchSubmit = document.querySelector('form');
 const searchTerm = document.querySelector('input');
 const btnNew = document.querySelector('.new');
 const result = document.querySelector('.result');
-// let searchTerm = '';
-const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
+// const proxyUrl = 'https://cors-anywhere.herokuapp.com/';
 
 searchSubmit.addEventListener('submit', (e) => {
     e.preventDefault();
     console.log(searchTerm.value);
-    fetch(
-        `${proxyUrl}https://api.dictionaryapi.dev/api/v2/entries/en/${searchTerm.value}`
-    )
+    fetch(`https://api.dictionaryapi.dev/api/v2/entries/en/${searchTerm.value}`)
         .then((res) => {
             console.log(res);
             if (res.status == '404') {
