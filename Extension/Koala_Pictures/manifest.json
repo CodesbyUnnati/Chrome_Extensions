@@ -4,10 +4,10 @@
   "manifest_version": 2,
   "browser_action": {
     "default_popup": "popup.html",
-    "default_icon": "koala.jpg"
+    "default_icon": "koala.png"
   },
   "icons": {
-    "128": "koala.jpg"
+    "128": "koala.png"
   },
   "permissions": ["activeTab"]
 }
