@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>The Weather</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type="text/css">
+    <!-- <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script> -->
+    <style>
+        html, body {
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            margin: 0;
+            min-height: 80px;
+            padding: 0;
+            width: 200px;
+        }
+        #temp {
+            font-family: 'Menlo', monospace;
+            font-size: 30px;
+            font-weight: 400;
+            margin: 0;
+            color: #1879bd;
+            display: inline-block;
+        }
+        /*a:link, a:visited {
+            color: #000000;
+            outline: 0;
+            text-decoration: none;
+        }*/
+        #weather-img {
+            width: 40px;
+            display: inline-block;
+        }
+        #weather-img img {
+        	width: 100%;
+			margin-bottom: -6px;
+        }
+        .modal-header {
+            align-items: center;
+            border-bottom: 0.5px solid #dadada;
+            margin-bottom: 5px;
+            padding: 0px 22px; 
+        }
+        .modal-header p {
+        	margin: 5px auto;
+        }
+        .modal-content {
+            padding: 0 22px;
+        }
+    </style>
+</head>
+<body>
+	<div class="modal-header">
+		<p id="location"></p>
+	</div>
+    <div class="modal-content">
+        <div id="weather-img"></div>&nbsp;<div id="temp"></div>
+        <p id="weather"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
