@@ -4,6 +4,6 @@ fetch("https://randomfox.ca/floof/")
     console.log(foxData);
     const foxPic = foxData[0]["image"];
     console.log(foxPic);
-    const foxElement = document.getElementById("foxPic");
+    const foxElement = document.getElementById("foxElement");
     foxElement.src = foxPic;
   });
