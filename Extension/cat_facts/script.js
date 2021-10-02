@@ -2,13 +2,13 @@ const spinner = document.getElementById("spinner");
 
 
 spinner.removeAttribute('hidden');
-fetch('https://cat-fact.herokuapp.com/facts.json')
+fetch('https://catfact.ninja/fact')
 .then(data => data.json())
 .then(CatData=>
     {
         spinner.setAttribute('hidden', '');
-        const catImages=CatData.url;
-        const catElement=document.getElementById('catElement');
+        const catFacts=CatData.fact;
+        const catFact = document.getElementById('catFact')
 
-        catElement.src=catImages;
+        catFact.innerHTML = catFacts;
     })
