@@ -1,0 +1,43 @@
+body {
+    width:400px;
+ background-image: url("background.png");
+ background-repeat: round;
+ 
+}
+h1 {
+    color: white;
+    text-align: center;
+    
+}
+
+button{
+  
+    background: rgb(131,58,180);
+    
+background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+  border-radius: 999px;
+  box-shadow: #104c7c 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 20px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;}
+  
+      value{
+          color: aqua;
+  }
+ 
+   
+    
