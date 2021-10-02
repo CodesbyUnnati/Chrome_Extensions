@@ -1,0 +1,15 @@
+{
+    "name" : "Random Quotes",
+    "version" : "1.3.0",
+    "manifest_version" : 2,
+    "browser_action" : {
+        "default_popup" : "popup.html",
+        "default_icon" : "quotes.png"
+    },
+    "icons" : {
+        "512" : "quotes.png",
+        "128" : "quotes.png"
+    },
+    "permission" : ["activeTab"]
+
+}
