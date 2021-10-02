@@ -3,8 +3,8 @@
 
   "name": "File Structure",
   "version": "7.1.0",
-  "description": "GitHub on steroids",
-  "homepage_url": "#",
+  "description": "Added utility for Github Repositories",
+  "homepage_url": "https://github.com",
   "author": "Team Octotree",
   "manifest_version": 2,
   "minimum_chrome_version": "60",
