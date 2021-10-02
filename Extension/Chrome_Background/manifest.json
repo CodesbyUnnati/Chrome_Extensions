@@ -1,0 +1,18 @@
+{   "manifest_version": 2,
+    "name": "googleBackground",
+    "description":"Adds a background to google homepage",
+    "version": "0.0.1",
+    "icons": {
+        "128":"logo.png"
+    },
+
+    "page_action": {
+        "default_icon": {
+            "128":"logo.png"
+        }
+    },
+        "content_scripts": [{
+        "matches":["https://www.google.com/*"],
+        "css": ["main.css"]
+    }]
+}
