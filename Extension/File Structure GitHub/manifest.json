@@ -4,7 +4,7 @@
   "name": "File Structure",
   "version": "7.1.0",
   "description": "GitHub on steroids",
-  "homepage_url": "https://www.octotree.io",
+  "homepage_url": "#",
   "author": "Team Octotree",
   "manifest_version": 2,
   "minimum_chrome_version": "60",
@@ -19,7 +19,6 @@
   },
   "permissions": [
     "https://api.github.com/*",
-    "https://www.octotree.io/*",
     "storage", "contextMenus", "activeTab"
   ],
   "optional_permissions": ["http://*/*", "https://*/*", "webNavigation"],
