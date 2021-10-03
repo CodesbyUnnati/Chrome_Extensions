@@ -1,0 +1,10 @@
+{
+  "name": "CHEER",
+  "version": "0.0.1",
+  "description": "A positive message to cheer you up",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "cheer.html",
+    "default_icon": "icon16.png"
+  }
+}
