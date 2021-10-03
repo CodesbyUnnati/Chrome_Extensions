@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    width: 500px;
+    height: 500px;
+    background-color:transparent;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#catElement {
+    width: 100%;
+}
+
+body a {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    background: black;
+    font-size: 18px;
+}
+
+p{
+    display: inline-flex;
+    margin: auto 10px;
+    padding: 15px;
+}
