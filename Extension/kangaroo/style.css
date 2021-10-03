@@ -1,0 +1,15 @@
+body{
+    width: 500px;
+    height: 500px;
+    background-color: lightgoldenrodyellow;
+    display: flex;
+    justify-content: center;
+}
+p{
+   display: inline-flex;
+   margin: auto;
+   font-size: 35px;
+   padding-top: 250px;
+   padding-left: 1300px;
+   position: absolute;
+}
