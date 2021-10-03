@@ -1,0 +1,14 @@
+body{
+    width: 500px;
+    height: 500px;
+    background-color: deepskyblue;
+    display: flex;
+    justify-content: center;
+}
+
+.center{
+   display: block;
+  margin-left: 800px;
+  margin-right: auto;
+  width: 800px;
+}
