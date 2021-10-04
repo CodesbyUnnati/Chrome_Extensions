@@ -1,0 +1,33 @@
+.quote-body {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 300px;
+	line-height: 1.5;
+	border-radius: 10px;
+	overflow: hidden;
+	background-color: lightcyan;
+}
+
+.quote-body__title,
+.quote-body__content {
+	padding: 1rem 1.5rem;
+}
+
+.quote-body__title {
+	margin: 0;
+	font-size: 1.3rem;
+	background-color: lightblue;
+	color: white;
+}
+
+.quote-body__content {
+	opacity: 0.7;
+}
+
+.quote-body__author {
+	margin-top: 0;
+	font-size: 1rem;
+}
+
+.quote-body__quote {
+	text-align: justify;
+}
