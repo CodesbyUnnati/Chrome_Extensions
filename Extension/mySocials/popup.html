@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>my Socials</title>
+    <link
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet"
+      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+      crossorigin="anonymous"
+    />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+     
+      html,
+      body {
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        margin: 0;
+        min-height: 180px;
+        padding: 0;
+        width: 384px;
+      }
+
+      h1 {
+        font-family: "Open Sans", sans-serif;
+        font-size: 22px;
+        font-weight: 400;
+        margin: 0;
+        color: #2f5876;
+      }
+
+      a:link,
+      a:visited {
+        color: #000000;
+        outline: 0;
+        text-decoration: none;
+      }
+
+      img {
+        width: 30px;
+      }
+
+      .modal-header {
+        align-items: center;
+        border-bottom: 0.5px solid #dadada;
+      }
+
+      .modal-content {
+        padding: 0 22px;
+      }
+
+      .modal-icons {
+        border-top: 0.5px solid #dadada;
+        height: 50px;
+        width: 100%;
+      }
+
+      .logo {
+        padding: 16px;
+      }
+
+      .logo-icon {
+        vertical-align: text-bottom;
+        margin-right: 12px;
+      }
+
+      .flex-container {
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 22px;
+      }
+
+      .flex {
+        opacity: 1;
+        transition: opacity 0.2s ease-in-out;
+        width: 120px;
+      }
+
+      .flex:hover {
+        opacity: 0.4;
+      }
+
+      .flex .fa {
+        font-size: 40px;
+        color: #2f5876;
+      }
+    </style>
+    <script src="popup.js"></script>
+  </head>
+
+  <body>
+    <div class="modal-header">
+      <h1 class="logo">
+        <img class="logo-icon" src="icon.png" />my Socials
+      </h1>
+    </div>
+    <div class="modal-content">
+      <p>Easily Access your Socials</p>
+    </div>
+    <div class="modal-icons">
+      <div class="flex-container">
+        <div class="flex">
+          <a href="https://sumukhdhawade.netlify.app/" target="_blank">
+            <i class="fa fa-globe" style="color:#2f5876 "></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://twitter.com/sumukhdh" target="_blank">
+            <i class="fa fa-twitter" style="color: #2f5876 "></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://www.instagram.com/__sumukh__/" target="_blank">
+            <i class="fa fa-instagram" style="color:#2f5876 "></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="https://github.com/sumukhdhawade" target="_blank">
+            <i class="fa fa-github" style="color:#2f5876 "></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
