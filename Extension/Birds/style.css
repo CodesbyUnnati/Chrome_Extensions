@@ -6,9 +6,8 @@ body{
     justify-content: center;
 }
 
-.center{
-   display: block;
-  margin-left: 800px;
-  margin-right: auto;
-  width: 800px;
+p{
+    display: inline-flex;
+    margin: auto 20px;
+    padding: 25px;
 }
