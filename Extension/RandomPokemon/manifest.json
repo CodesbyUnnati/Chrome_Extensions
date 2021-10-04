@@ -1,0 +1,15 @@
+{
+  "name": "Random Pokemon",
+  "version": "2",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "pokeball-thumb.png"
+  },
+  "icons": {
+    "128": "pokeball-thumb.png"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
