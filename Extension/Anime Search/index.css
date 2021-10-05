@@ -1,0 +1,43 @@
+.result {
+	width: 300px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.result-form,
+.result-body {
+	padding: 1rem;
+}
+
+.result-form {
+	background-color: #9acd32;
+	color: white;
+}
+
+.result-form__label,
+.result-form__input {
+	font-family: inherit;
+}
+
+.result-form__label {
+	font-weight: bold;
+}
+
+.result-form__input {
+	display: block;
+	margin: 0.5rem 0;
+	width: 100%;
+	box-sizing: border-box;
+	padding: 0.5rem;
+	border: none;
+}
+
+.result-body {
+	text-align: center;
+}
+
+.result__img {
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	background-color: darkslategray;
+}
