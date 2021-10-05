@@ -1,0 +1,13 @@
+{
+  "name": "Muslim Prayer Time in Semarang",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "islamic.png"
+  },
+  "icons": {
+    "128": "islamic.png"
+  },
+  "permissions": ["activeTab"]
+}
