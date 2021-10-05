@@ -1,0 +1,14 @@
+{
+  "name": "Message preview",
+  "description": "This is a chrome extension to preview messages",
+  "version": "0.1",
+  "manifest_version": 3,
+  "icons": {
+    "128": "message.png"
+  },
+  "action": {},
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["identity", "storage"]
+}
