@@ -4,11 +4,11 @@
 
 <h3 align="center">
     <a href="https://hacktoberfest.digitalocean.com/">
-        Link To HacktoberFest 2021
+        🔗Link To HacktoberFest 2021
     </a>
 </h3>
 
-## Event details :
+## 📌Event details :
 
 - Hacktoberfest® is open to everyone in our global community. Whether you’re a developer, student learning to code, event host, or company of any size, you can help drive growth of open source and make positive contributions to an ever-growing community. 
 - All backgrounds and skill levels are encouraged to complete the challenge.
@@ -17,7 +17,7 @@
 
 ---
 
-## HacktoberFest Rules :
+## 📌HacktoberFest Rules :
 
 - To earn your Hacktoberfest tee or tree reward, you must register and make four valid pull requests (PRs) between October 1-31 (in any time zone). 
 - Pull requests can be made in any participating GitHub or GitLab hosted repository/project. Look for the 'hacktoberfest' topic to know if a repository/project is participating in Hacktoberfest. 
@@ -37,14 +37,14 @@
 </h3>
 
 ***
-## Rules To Contribute To This Repo
+## 📌Rules To Contribute To This Repo
 
 -   You have to create a unique Chrome extension, by taking reference of the demo video-https://youtu.be/SRkUW_mv64A.
 -   Each Extension should contain a logo, a manifest.json file, popup.html , style.css, script.js file.
 -   You should not copy other's code.
 -   You can create as many PR's, but they should be unique.
 
-## file naming convention
+## 📍file naming convention
 
  - You should create a separate folder inside the main folder "Extension".
  - Give a unique and valid name of your extension.
@@ -52,7 +52,7 @@
  - Do not create any folder outside the "Extension" folder.
      
 
-## Steps For Contribution
+## 📍Steps For Contribution
 
     1. Fork this repo
     2. Star this repo
@@ -64,8 +64,8 @@
 
 <h2 align="center">
     <p>
-        Thank You! 
-        PS- Don't forget to star this repo ;p
+        Thank You😊<br><br>
+        PS- Don't forget to star this repo⭐
     </p>
 </h2>
 
