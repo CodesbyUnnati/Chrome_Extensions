@@ -34,7 +34,9 @@
        Join Discord Conversation
     </a>
 </h3>
-***
+<br>
+<br>
+<br>
 
 ## 📌Rules To Contribute To This Repo
 
