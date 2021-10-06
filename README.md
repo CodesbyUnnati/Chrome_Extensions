@@ -36,7 +36,6 @@
     </a>
 </h3>
 
-***
 ## 📌Rules To Contribute To This Repo
 
 -   You have to create a unique Chrome extension, by taking reference of the demo video-https://youtu.be/SRkUW_mv64A.
