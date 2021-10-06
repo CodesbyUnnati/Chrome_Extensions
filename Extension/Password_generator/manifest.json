@@ -1,0 +1,12 @@
+{
+    "name": "Password Generator",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "description": "Generate a strong password with just one click!!!",
+    "icons": {"128": "download.png"},
+
+    "browser_action": {
+        "default_icon": "download.png",
+        "default_popup": "popup.html"
+    }
+}

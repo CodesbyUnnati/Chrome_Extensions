@@ -1,0 +1,16 @@
+p{
+	margin-top: 20px;
+	margin-left: 40%;
+	margin-right: 40%;
+	border-radius: 5px;
+	padding: 1% 1% 1% 2%;
+}
+
+body{
+	width: 500px;
+	height: 200px;
+}
+
+button{
+	margin: 10% 5% 5% 25%;
+}
