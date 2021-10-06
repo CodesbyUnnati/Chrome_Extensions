@@ -45,7 +45,7 @@
 -   You should not copy other's code.
 -   You can create as many PR's, but they should be unique.
 
-## 📍file naming convention
+## 📍File naming convention
 
  - You should create a separate folder inside the main folder "Extension".
  - Give a unique and valid name of your extension.
