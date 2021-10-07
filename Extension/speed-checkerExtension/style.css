@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+#progress{
+/*    text-align: center;*/
+    color:royalblue;
+    margin: auto 10px;
+    font-size: 20px;
+    border-radius: 2px;
+    
+}
+
+body {
+    width: 200px;
+    height: 100px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
