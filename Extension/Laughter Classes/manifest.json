@@ -1,0 +1,13 @@
+{
+    "name":"Laughter Classes",
+    "version":"0.0.1",
+    "manifest_version":2,
+    "browser_action":{
+        "default_popup":"pop.html",
+        "deafult_icon":"logo.png"
+    },
+    "icons": {
+        "128": "logo.png"
+    }
+
+}
