@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "name": "Calculator",
+  "version": "2.0.1",
+  "description": "This is a simple extension that is simple calculator",
+  "author": "Harsh Baldaniya",
+  "icons": {
+    "128": "calculator.png"
+  },
+
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "calculator.png",
+    "default_title": "Calculator"
+  },
+
+  "permissions": ["activeTab"],
+
+  "background": {
+    "scripts": ["main.js"]
+  }
+}
