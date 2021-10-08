@@ -1,14 +1,14 @@
 {
+    "manifest_version": 2,
     "name": "Quick Meanings",
     "version": "0.0.1",
-    "manifest_version": 2,
+    "description": "If we find any unknown words in any site that we are visiting, we can quickly search their meanings using this extension.",
+    "icons":{
+        "128": "book.png"
+    },
     "browser_action": {
         "default_popup": "popup.html",
-        "default_icon": "dlogo.png"
-    },
-    "icons": {
-        "48" : "dlogo.png",
-        "128": "dlogo.png"
+        "default_icon": "book.png"
     },
     "permissions": ["activeTab"]
-  }
+}

@@ -1,14 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
-*{
-    box-sizing: border-box;
-    margin: none;
-    padding: none;
-    font-family: 'Ubuntu', sans-serif;
-}
 body {
     height: fit-content;
     width: 350px;
     padding: 10px 20px;
+    font-family: 'Ubuntu', sans-serif;
 }
 span {
     display: flex;
