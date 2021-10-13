@@ -1,0 +1,34 @@
+body {
+  width: 310px;
+  height: 145px;
+  padding: 10px;
+  background-color: rgb(178, 192, 240);
+}
+
+.popup_box {
+  display: flex;
+}
+
+.gif > img {
+  margin-left: 2rem;
+}
+
+h1 {
+  color: blueviolet;
+}
+
+p {
+  font-size: 1rem;
+}
+
+#desc a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: #b4170c;
+  font-weight: 500;
+}
+
+#desc a:hover {
+  text-decoration: underline;
+  color: rgb(15, 6, 65);
+}
