@@ -1,0 +1,28 @@
+{
+     "name": "quick-links",  
+  "description": "grab links quickly at one place",
+
+    "version": "0.1.0",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://rajat-mehra-portfolio.netlify.app///*"
+            ],
+            "css": [
+                "style.css"
+            ]
+        }
+    ],
+    "permissions": [
+        "activeTab"
+    ],
+    "icons": {
+        "128": "link.png"
+    },
+    "browser_action": {
+        "default_icon": "link.png",
+        "default_popup": "popup.html"
+    }
+    
+}
