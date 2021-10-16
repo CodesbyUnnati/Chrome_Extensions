@@ -1,0 +1,13 @@
+{
+    "name":"Panda Pictures",
+    "version":"0.0.1",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_icon": "panda.png"
+    },
+    "icons":{
+        "128": "panda.png"
+    },
+    "permissions": ["activeTab"]
+}
