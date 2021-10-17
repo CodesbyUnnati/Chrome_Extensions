@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+  color: rgb(245, 104, 48);
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+
+.container {
+  height: auto;
+  width: 250px;
+  margin: 1rem;
+  padding: 1rem;
+  border: 2px solid purple;
+}
+
+.enter-country {
+  font-size: 1rem;
+}
+
+.country-name {
+  font-size: 1rem;
+  padding: 0.3rem;
+}
+
+.search-btn {
+  color: white;
+  background-color: #bb652c;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+
+.search-btn:hover {
+  background-color: #8f4819;
+}
+
+.result-container {
+  font-size: 1rem;
+}
