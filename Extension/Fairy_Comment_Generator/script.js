@@ -199,4 +199,4 @@ replaceWithEmoji();
 function replaceWithEmoji(emote, emojiList) {
   emote.innerText =
     emojiList[Math.floor(Math.random() * emojiList.length)];
-}
+} 
