@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Covid tracker</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script type="text/javascript" src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="header">Covid 19</div>
+    <div class="container">
+      <form autocomplete="on" class="form-data">
+        <div class="enter-country">
+          <b> Enter country name </b>
+        </div>
+        <div><input type="text" class="country-name" /></div>
+        <br />
+        <button class="search-btn">Search</button>
+
+        <div class="result">
+          <div class="loading">loading...</div>
+          <div class="errors"></div>
+          <div class="data"></div>
+          <div class="result-container">
+            <p><strong>New cases: </strong><span class="todayCases"></span></p>
+            <p>
+              <strong>New deaths: </strong><span class="todayDeaths"></span>
+            </p>
+            <p><strong>Total cases: </strong><span class="cases"></span></p>
+            <p>
+              <strong>Total recovered: </strong> <span class="recovered"></span>
+            </p>
+            <p><strong>Total deaths: </strong><span class="deaths"></span></p>
+            <p><strong>Total tests: </strong><span class="tests"></span></p>
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
