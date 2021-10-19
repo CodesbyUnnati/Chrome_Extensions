@@ -1,0 +1,20 @@
+.ythumbdl-open {
+    background: #ef4242;
+    color: white;
+    padding: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    border-radius: 6px;
+}
+
+.ythumbdl-column {
+    flex-direction: column;
+}
+
+.ythumbdl-open.current-watch,
+.ythumbdl-column .ythumbdl-open {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}

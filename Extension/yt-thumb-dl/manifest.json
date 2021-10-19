@@ -1,0 +1,23 @@
+{
+    "name": "Youtube Thumbnail Downloader",
+    "description": "Download thumbnail of youtube video.",
+    "version": "0.0.1",
+    "manifest_version": 2,
+    "icons": {
+        "512": "icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://youtube.com/*",
+                "https://*.youtube.com/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "css": [
+                "style.css"
+            ]
+        }
+    ]
+}
