@@ -1,0 +1,13 @@
+{
+  "name": "Anime Pat Gifs",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "pat.png"
+  },
+  "icons": {
+    "128": "pat.png"
+  },
+  "permissions": ["activeTab"]
+}
