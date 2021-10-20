@@ -63,7 +63,7 @@ const YThumbDL = {
             let wTitle = document.querySelector('#container.ytd-video-primary-info-renderer h1.title:not([data-ythumbdl])');
             if (wTitle) {
                 wTitle.insertAdjacentHTML('afterend', `<div class="ythumbdl-open current-watch" data-videoid="current">${this.btnText}</div>`);
-                wTitle.dataset.yttdl = true;
+                wTitle.dataset.ythumbdl = true;
             }
         }
     },
