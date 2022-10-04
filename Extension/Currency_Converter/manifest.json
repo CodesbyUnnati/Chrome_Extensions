@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Currency Converter",
+    "version": "2.0.1",
+    "description": "This is a simple extension that is Currency Converter",
+    "author": "Dev Rishik Maruturi",
+    "icons": {
+      "128": "currency.png"
+    },
+  
+    "browser_action": {
+      "default_popup": "popup.html",
+      "default_icon": "currency.png",
+      "default_title": "Currency Converter"
+    },
+  
+    "permissions": ["activeTab"],
+  
+    "background": {
+      "scripts": ["script.js"]
+    }
+  }
